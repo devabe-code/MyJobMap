@@ -1,0 +1,1 @@
+export type Database = any; //TODO:/ For now any DB, actual types later
