@@ -1,4 +1,5 @@
-// deno-lint-ignore-file no-import-prefix
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// deno-lint-ignore-file no-import-prefix no-explicit-any
 // supabase/functions/sync-transitland/index.ts
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
